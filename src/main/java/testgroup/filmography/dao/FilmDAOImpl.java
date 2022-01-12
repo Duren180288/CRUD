@@ -23,7 +23,7 @@ public class FilmDAOImpl  implements FilmDAO{
         Film film2 = new Film();
         film2.setId(AUTO_ID.getAndIncrement());
         film2.setTitle("Terminator");
-        film2.setYear(1985);
+        film2.setYear(1986);
         film2.setGenre("sci-fi");
         film2.setWatched(true);
         films.put(film2.getId(), film2);
